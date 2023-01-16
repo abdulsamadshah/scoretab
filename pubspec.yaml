@@ -1,0 +1,75 @@
+name: scoretab
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: ">=2.18.2 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  get_cli: ^1.8.1
+  get: 4.6.5
+  shared_preferences: ^2.0.15
+  flutter:
+    sdk: flutter
+  flutter_svg: ^1.1.5
+  dropdown_search: ^3.0.1
+  multi_select_flutter: ^4.1.2
+  syncfusion_flutter_calendar: ^20.3.52
+  syncfusion_flutter_datepicker: ^20.2.40
+  cached_network_image: ^3.2.1
+  flutter_multi_select_items: ^0.4.2
+  delayed_display: ^2.0.0
+  dio: ^4.0.6
+  fluttertoast: ^8.0.9
+  intl: ^0.17.0
+  firebase_messaging: ^14.1.2
+  connectivity_plus: ^2.0.2
+  google_mobile_ads: ^2.2.0
+  google_sign_in: ^5.4.2
+  loader_overlay: ^2.1.0
+  swipe: ^0.0.1
+  restart_app: ^1.1.1+1
+  googleapis: ^9.2.0
+  firebase_core: ^2.4.1
+  firebase_auth: ^4.2.5
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/svg/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+
+    - family: din
+      fonts:
+        - asset: assets/fonts/Din-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/DIN.ttf
+          weight: 300
+        - asset: assets/fonts/Din-Medium.ttf
+          weight: 400
+
+    - family: Typo Round
+      fonts:
+        - asset: assets/fonts/Typo_Round_Bold_Demo.otf
+          weight: 700
